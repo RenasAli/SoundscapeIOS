@@ -27,7 +27,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 
 struct ContentView: View {
     @StateObject var locationManager = LocationManager()
-    @State private var homeLocation = CLLocation(latitude: 52.8021 , longitude: 5.6999)
+    @State private var homeLocation = CLLocation(latitude: 51.4505620 , longitude: 5.4628222)
     @State private var audioPlayer: AVAudioPlayer?
     @State private var isPlaying = false
     
